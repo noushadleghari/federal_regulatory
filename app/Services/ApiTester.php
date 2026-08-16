@@ -22,6 +22,9 @@ class ApiTester{
         protected UsgsEarthquakeService $usgsEarthquakeService,
         protected UsdaNrcsService $usdaNrcsService,
         protected UsgsMrdsService $usgsMrdsService,
+        protected UsdaNrcsSsurgoService $usdaNrcsSsurgoService,
+        protected UsdaCropScapeService $usdaCropScapeService,
+        protected UsdaNassQuickStatsService $usdaNassQuickStatsService
 
     ){}
 
@@ -43,8 +46,10 @@ class ApiTester{
             // $this->epaAcresService->fetchData(), //working
             // $this->usgsEarthquakeService->fetchData(), //working
             // $this->usdaNrcsService->fetchData(), //working
-
-            $this->usgsMrdsService->fetchData(),
+            // $this->usgsMrdsService->fetchData(),//working
+            $this->usdaNrcsSsurgoService->fetchData(),//testing
+            // $this->usdaCropScapeService->fetchData(),//working but gives url for data
+            // $this->usdaNassQuickStatsService->fetchData(),//working
 
 
 
