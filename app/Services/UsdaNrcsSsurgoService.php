@@ -16,6 +16,7 @@ class UsdaNrcsSsurgoService
                 'version' => '1.1.0',
                 'request' => 'GetFeature',
                 'typeName' => 'MapunitPoly',
+                'BBOX' => '-77.1,38.8,-77.0,38.9',
                 'maxFeatures' => 10,
             ]);
 
